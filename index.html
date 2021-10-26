@@ -19,32 +19,32 @@
 
 <body>
     <header class="header">
-        <div class="header-container  container ">
-            <nav class="header-nav">
-                <a href="" class="header-logo link">Web<span class="logo">Studio</span></a>
-                <ul class="header-list list">
-                    <li class="header-item">
-                        <a class="header-link link current" href="./index.html">Студия</a>
+        <div class="header__container  container ">
+            <nav class="header__nav">
+                <a href="" class="header__logo link">Web<span class="header__spanlogo">Studio</span></a>
+                <ul class="header__list list">
+                    <li class="header__item">
+                        <a class="header__link link header__current" href="./index.html">Студия</a>
                     </li>
-                    <li class="header-item">
-                        <a class="header-link link" href="./portfolio.html">Портфолио</a>
+                    <li class="header__item">
+                        <a class="header__link link" href="./portfolio.html">Портфолио</a>
                     </li>
-                     <li class="header-item">
-                        <a class="header-link link" href="">Контакты</a>
+                     <li class="header__item">
+                        <a class="header__link link" href="">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="header-list-contacts list">
-                <li class="header-mail">
-                    <a class="header-mail-link link" href="mailto:info@devstudio.com">
-                        <svg class="svg-header" width="16" height="12">
+            <ul class="header__contacts list">
+                <li>
+                    <a class="header__mail link" href="mailto:info@devstudio.com">
+                        <svg class="header__svg" width="16" height="12">
                             <use href="./images/sprite.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="header-tel">
-                    <a class="header-tel-link link" href="+380961111111">
-                        <svg class="svg-header" width="10" height="16">
+                <li>
+                    <a class="header__tel link" href="+380961111111">
+                        <svg class="header__svg" width="10" height="16">
                             <use href="./images/sprite.svg#icon-phone"></use>
                         </svg>
                         +38 096 111 11 11</a>
@@ -54,93 +54,90 @@
     </header>
 
     <main class="main-first">
-        <!--Секція1-->
-        <section class="section-one">
+        <!--hero-->
+        <section class="hero">
             <div class="container">
-                <div class="container-sec-one">
-                    <h1 class="section-one-list">
+                    <h1 class="hero__tittle">
                         ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
                     </h1>
-                    <button class="main-btn" 
+                    <button class="hero__btn" 
                     data-modal-open 
                     type="button">Заказать услугу</button>
-                </div>
             </div>
         </section>
 
-        <!--Секція2-->
-        <section class="section-two">
+        <!--works-->
+        <section class="works">
             <div class="container">
                 <h2 hidden>О нас</h2>
-                <div class="about">
-                    <ul class="sec-two-list list">
+                <ul class="works__list list">
                         <li>
-                            <div class="icon-about">
-                                <svg class="svg-sec2" width="270" height="120">
+                            <div class="works__icon">
+                                <svg class="icon__svg" width="270" height="120">
                                     <use href="./images/sprite.svg#icon-antenna"></use>
                                 </svg>
                             </div>
-                            <h3 class="sec-two-title">Внимание к деталям</h3>
-                            <p class="sec-two-text">
+                            <h3 class="icon__tittle">Внимание к деталям</h3>
+                            <p class="icon__text">
                                 Идейные соображения, а также начало повседневной работы по
                                 формированию позиции.
                             </p>
                         </li>
                         <li>
-                            <div class="icon-about">
-                                <svg class="svg-sec2" width="270" height="120">
+                            <div class="works__icon">
+                                <svg class="icon__svg" width="270" height="120">
                                     <use href="./images/sprite.svg#icon-clock"></use>
                                 </svg>
                             </div>
-                            <h3 class="sec-two-title">Пунктуальность</h3>
-                            <p class="sec-two-text">
+                            <h3 class="icon__tittle">Пунктуальность</h3>
+                            <p class="icon__text">
                                 Задача организации, в особенности же рамки и место обучения
                                 кадров влечет за собой.
                             </p>
                         </li>
                         <li>
-                            <div class="icon-about">
-                                <svg class="svg-sec2" width="270" height="120">
+                            <div class="works__icon">
+                                <svg class="icon__svg" width="270" height="120">
                                     <use href="./images/sprite.svg#icon-diagram"></use>
                                 </svg>
                             </div>
-                            <h3 class="sec-two-title">Планирование</h3>
-                            <p class="sec-two-text">
+                            <h3 class="icon__tittle">Планирование</h3>
+                            <p class="icon__text">
                                 Равным образом консультация с широким активом в значительной
                                 степени обуславливает.
                             </p>
                         </li>
                         <li>
-                            <div class="icon-about">
-                                <svg class="svg-sec2" width="270" height="120">
+                            <div class="works__icon">
+                                <svg class="icon__svg" width="270" height="120">
                                     <use href="./images/sprite.svg#icon-astronaut"></use>
                                 </svg>
                             </div>
-                            <h3 class="sec-two-title">Современные технологии</h3>
-                            <p class="sec-two-text last">
+                            <h3 class="icon__tittle">Современные технологии</h3>
+                            <p class="icon__text last">
                                 Значимость этих проблем настолько очевидна, что реализация
                                 плановых заданий.
                             </p>
                         </li>
-                    </ul>
-                </div>
-                <h2 class="sec-two-about">Чем мы занимаемся</h2>
-                <ul class="sec-two-list list">
-                    <li class="img-sec-two">
-                        <div class="apps">
-                            <h3 class="words">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
+                </ul>
+                
+                <h2 class="works__tittle">Чем мы занимаемся</h2>
+                <ul class="works__list list">
+                    <li class="works__image">
+                        <div class="image__div">
+                            <h3 class="image__tittle">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
                         </div>
                         <img src="./images/img1.jpg" width="370" height="294" alt="пк" />
                     </li>
-                    <li class="img-sec-two">
-                        <div class="apps">
-                            <h3 class="words">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
+                    <li class="works__image">
+                        <div class="image__div">
+                            <h3 class="image__tittle">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
                         </div>
                         <img src="./images/img2.jpg" width="370" height="294" alt="смартфон" />
                     </li>
-                    <li class="img-sec-two">
-                        <div class="apps">
-                            <h3 class="words">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
+                    <li class="works__image">
+                        <div class="image__div">
+                            <h3 class="image__tittle">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
                         </div>
                         <img src="./images/img3.jpg" width="370" height="294" alt="планшет" />
                     </li>
