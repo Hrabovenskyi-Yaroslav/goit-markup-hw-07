@@ -1,11 +1,16 @@
-:root {
-  --primary-title-color: #ffffff;
-  --second-title-color: #2f303a;
-  --third-title-color: #e5e5e5;
-  --fourth-title-color: #f5f4fa;
-
-  --prymary-text-color: #212121;
-  --second-text-color: #757575;
-  --third-text-color: #ffffff;
-  --fourth-text-color: #2196f3;
-}
+@import "./utils/variables";
+@import "./components/reset";
+@import "./components/common";
+@import "./components/container";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/works";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/projects";
+@import "./components/modal";
+@import "./components/btn";
+@import "./components/logo";
+@import "./components/sections";
+@import "./components/social-link";
