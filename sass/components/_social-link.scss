@@ -7,10 +7,10 @@
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-}
-.team-social__link:focus,
-.team-social__link:hover {
-  background: var(--fourth-text-color);
+  &:focus,
+  &:hover {
+    background: var(--fourth-text-color);
+  }
 }
 .team-social__icon {
   width: 20px;
@@ -38,10 +38,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.footer-social__link:focus,
-.footer-social__link:hover {
-  background: var(--fourth-text-color);
+  &:focus,
+  &:hover {
+    background: var(--fourth-text-color);
+  }
 }
 .footer-social__icon {
   fill: var(--primary-title-color);

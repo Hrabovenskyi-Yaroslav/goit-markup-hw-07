@@ -10,7 +10,6 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -43,6 +42,10 @@ img {
 
 .last {
   margin-right: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -1042,8 +1045,7 @@ img {
   justify-content: center;
 }
 
-.team-social__link:focus,
-.team-social__link:hover {
+.team-social__link:focus, .team-social__link:hover {
   background: var(--fourth-text-color);
 }
 
@@ -1079,8 +1081,7 @@ img {
   justify-content: center;
 }
 
-.footer-social__link:focus,
-.footer-social__link:hover {
+.footer-social__link:focus, .footer-social__link:hover {
   background: var(--fourth-text-color);
 }
 
